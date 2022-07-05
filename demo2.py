@@ -5,5 +5,6 @@ print(a+b+c);
 
 print("hello world");
 
-
-
+name="prasad"
+if name=="prasad":
+    print("name is correct")
