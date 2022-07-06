@@ -8,6 +8,12 @@ print(a+b+c);
 
 print("hello world");
 
+<<<<<<< HEAD
+name="prasad"
+if name=="prasad":
+    print("name is correct")
+=======
 //testing if loop
 print("Hello prasad");
 
+>>>>>>> master
