@@ -8,12 +8,12 @@ print(a+b+c);
 
 print("hello world");
 
-<<<<<<< HEAD
 name="prasad"
 if name=="prasad":
-    print("name is correct")
-=======
-//testing if loop
+    print("name is correct");
+    
+    
 print("Hello prasad");
+for i in range(10):
+    print(i);
 
->>>>>>> master
