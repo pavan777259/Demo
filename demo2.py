@@ -3,7 +3,9 @@ b=3
 c=5
 print(a+b+c);
 
-print("hello world");
+print("hello world")
+
+print ("hello prasad ")
 
 
 
