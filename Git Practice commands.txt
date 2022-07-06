@@ -1,0 +1,15 @@
+git merge Ex:
+==============
+
+git branch master==>git checkout master==>(master)add some code
+
+git add .==> git commit -m "Added"==> git checkout main==> git merge master
+
+==>git push -u origin main
+
+
+
+
+
+
+ 
