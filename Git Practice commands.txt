@@ -9,6 +9,32 @@ git add .==> git commit -m "Added"==> git checkout main==> git merge master
 
 
 
+git branch MynewBranch
+
+touch test2.txt
+
+git add .
+git commit -m "file added"
+
+git push -u origin MyNewBranch
+
+git checkout master {you dont have test2.txt file in master branch.}
+
+git merge MyNewBranch {Now test2.txt file is visible in Master branch.}
+
+git push -u origin master
+
+Delete Branch
+===============>
+
+git branch -d MyNewBranch --locally
+git push origin -delete MyNewbranch   ---remote
+
+
+
+
+
+
 
 
 
