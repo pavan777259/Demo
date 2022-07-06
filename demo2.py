@@ -1,2 +1,2 @@
-l=["prasad","raaju"]
+l=["prasad","raaju"];
 print(l);
