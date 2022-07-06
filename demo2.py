@@ -17,3 +17,7 @@ print("Hello prasad");
 for i in range(10):
     print(i);
 
+
+r=range(20);
+for i in r:
+    print(i);
