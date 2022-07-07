@@ -28,7 +28,45 @@ Delete Branch
 ===============>
 
 git branch -d MyNewBranch --locally
-git push origin -delete MyNewbranch   ---remote
+git push origin --delete MyNewbranch   ---remote
+
+=====
+press i button to insert text and .after insert completed Esc+:wq
+====
+
+
+
+Diffrence b/w Git merge and Git rebase
+=========================================
+
+mkdir gitdemo1
+cd gitdemo1
+
+git init{on master}
+
+touch m1.txt
+git status
+git add .
+git commit -m "m1.txt file added"
+git branch feature
+git checkout feature
+touch f1.txt
+git add .
+git commit -m "f1.txt file added"
+
+git checkout master
+touch m2.txt
+git add .
+git commit -m "m2.txt file added"
+
+git checkout feature
+git merge master
+
+
+now follow same process on another directory called gitdemo2, 
+
+git rebase master
+
 
 
 
